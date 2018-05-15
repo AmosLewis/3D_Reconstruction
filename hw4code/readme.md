@@ -10,12 +10,12 @@ Due Date: January 13th, 2017
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 function F = eightpoint(pts1, pts2, M);
 
-where pts1 and pts2 are N °¡2 matrices with the first column of each corresponding to coordinates in the first image and the second column corresponding to coordinates in the second image (the format returned by cpselect). M is a scale parameter. The 8-point algorithm (discussed in class, and outlined in section 10.1 of Forsyth & Ponce) is arguably the simplest method for estimating the fundamental matrix.
+where pts1 and pts2 are N ¬°√Å2 matrices with the first column of each corresponding to coordinates in the first image and the second column corresponding to coordinates in the second image (the format returned by cpselect). M is a scale parameter. The 8-point algorithm (discussed in class, and outlined in section 10.1 of Forsyth & Ponce) is arguably the simplest method for estimating the fundamental matrix.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 function F = sevenpoint(pts1, pts2, M)
 
-where pts1 and pts2 are 7 °¡ 2 matrices containing the correspondences and M is the normalizer (use the maximum of the images°Ø height and width), and F is a 3cell array of length either 1 or 3 containing Fundamental matrix/matrices. Use M to normalize the point values between [0; 1] and remember to \unnormalize" your computed F afterwards.
+where pts1 and pts2 are 7 ¬°√Å 2 matrices containing the correspondences and M is the normalizer (use the maximum of the images¬°¬Ø height and width), and F is a 3cell array of length either 1 or 3 containing Fundamental matrix/matrices. Use M to normalize the point values between [0; 1] and remember to \unnormalize" your computed F afterwards.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 function E = essentialMatrix(F, K1, K2)
@@ -26,9 +26,9 @@ To obtain the Euclidean scene structure, first convert the fundamental matrix F 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 function P = triangulate(M1, p1, M2, p2)
 
-where p1 and p2 are the N °¡ 2 matrices with the 2D image coordinates and
-P is an N °¡ 3 matrix with the corresponding 3D points per row. M1 and M2 are
-the 3 °¡ 4 camera matrices. 
+where p1 and p2 are the N ¬°√Å 2 matrices with the 2D image coordinates and
+P is an N ¬°√Å 3 matrix with the corresponding 3D points per row. M1 and M2 are
+the 3 ¬°√Å 4 camera matrices. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 findM2.m 
