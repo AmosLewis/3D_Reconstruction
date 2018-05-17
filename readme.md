@@ -51,6 +51,9 @@ MATLAB function scatter3. The resulting figure can be rotated using the Rotate
 3D tool, which can be accessed through the figure menubar.
 
 # Result
-<img src="temple/im1.png" width="300"> <img src="temple/im2.png" width="300">
+<img src="hw4code/temple/im1.png" width="300"> <img src="hw4code/temple/im2.png" width="300">
+
 <img src="hw4code/temple1.jpg" width="300"> <img src="hw4code/temple2.jpg" width="300">
+
 <img src="hw4code/temple3.jpg" width="300"><img src="hw4code/temple4.jpg" width="300">
+
